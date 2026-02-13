@@ -1,0 +1,32 @@
+# Obsidian
+.obsidian/
+.data/
+
+# Claude Code sessions
+.claude/sessions/
+
+# Personal notes
+00_Inbox/
+01_Projects/
+02_Areas/
+03_Resources/
+04_Archive/
+05_Attachments/
+06_Metadata/
+
+# OS
+.DS_Store
+Thumbs.db
+nul
+
+# Backup files
+*.backup
+*.bak
+*.remote
+
+# Git
+.git/
+.serena/
+
+# MCP tool data
+.spec-workflow/
