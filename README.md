@@ -2,9 +2,11 @@
 
 **WorkState Manager** - 让每一天都留下可复用的认知资产
 
-![Version](https://img.shields.io/badge/version-1.0.1-green.svg)](https://github.com/Albert-Lsk/alskai-dayflow)
-![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-purple.svg)](https://claude.com/claude-code)
+[![Version](https://img.shields.io/badge/version-1.0.1-green?style=flat-square)](https://github.com/Albert-Lsk/alskai-dayflow/releases)
+[![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
+[![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-purple?style=flat-square&logo=anthropic)](https://claude.com/claude-code)
+[![GitHub stars](https://img.shields.io/github/stars/Albert-Lsk/alskai-dayflow?style=flat-square)](https://github.com/Albert-Lsk/alskai-dayflow/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Albert-Lsk/alskai-dayflow?style=flat-square)](https://github.com/Albert-Lsk/alskai-dayflow/network/members)
 
 ---
 
@@ -35,20 +37,47 @@
 
 ### 安装
 
+#### 方法一：直接下载（推荐）
+
+1. 访问 [Releases 页面](https://github.com/Albert-Lsk/alskai-dayflow/releases)
+2. 下载最新版本的 `alskai-dayflow.zip`
+3. 解压到你的 `.claude/skills/` 目录下
+
+#### 方法二：Git 克隆
+
+```bash
+# 在你的 .claude/skills/ 目录下执行
+git clone https://github.com/Albert-Lsk/alskai-dayflow.git
+
+# 或者使用 SSH（如果你配置了 SSH 密钥）
+git clone git@github.com:Albert-Lsk/alskai-dayflow.git
+```
+
+#### 方法三：手动复制
+
 将 `alskai-dayflow` 文件夹复制到你的 `.claude/skills/` 目录下：
 
 ```
 .claude/
 └── skills/
     └── alskai-dayflow/    ← 放这里
+        ├── SKILL.md
         ├── README.md
-        ├── skill.md
+        ├── LICENSE
         └── references/
             ├── document-template.md
             └── examples.md
 ```
 
-重启 Claude Code，skill会自动加载。
+### 验证安装
+
+重启 Claude Code，然后在对话中输入：
+
+```
+/turn-me-on
+```
+
+如果看到"今天最重要的三件事是什么？"的提示，说明安装成功！
 
 ---
 
@@ -190,6 +219,45 @@ DailyReview/
 
 - **模板文件**: `references/document-template.md`
 - **使用示例**: `references/examples.md`
+
+---
+
+## 📝 更新日志
+
+### v1.0.1 (2026-02-13)
+- ✅ 首次发布到GitHub
+- ✅ 三个基础命令完整实现
+- ✅ 单一文档原则（DailyReview/{DATE}.md）
+- ✅ Open Loops管理和沉寂警告
+
+### v0.2.0 (规划中)
+- [ ] 沉寂提醒增强
+- [ ] 精力状态可视化
+- [ ] 周统计功能
+
+---
+
+## 🤝 贡献
+
+欢迎提交 Issue 和 Pull Request！
+
+1. Fork 本仓库
+2. 创建特性分支 (`git checkout -b feature/AmazingFeature`)
+3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
+4. 推送到分支 (`git push origin feature/AmazingFeature`)
+5. 开启 Pull Request
+
+---
+
+## 📄 许可证
+
+本项目采用 [MIT License](LICENSE) 开源。
+
+---
+
+## ⭐ Star 支持
+
+如果这个skill对你有帮助，请给个 ⭐ Star 支持一下！
 
 ---
 
