@@ -48,5 +48,5 @@
 ---
 
 ### 📁 文档信息
-本文档: `DailyReview/{DATE}/{DATE}-WorkDay.md`
+本文档: `DailyReview/{DATE}.md`
 归档时间: {TIME}
